@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal" android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:weightSum="2">
+    <ImageView
+        android:id="@+id/dialog_img1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:adjustViewBounds="true"
+        android:layout_weight="1"
+        android:src="@drawable/onetalk"/>
+    <ImageView
+        android:src="@drawable/twotalk"
+        android:id="@+id/dialog_img2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:adjustViewBounds="true"
+        android:layout_weight="1"/>
+    <LinearLayout
+        android:id="@+id/dialog_layout"
+        android:visibility="gone"
+        android:orientation="vertical"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+        <TextView
+            android:text="아이디 검색"
+            android:textSize="10pt"
+            android:textColor="#000"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+            <View
+                android:layout_width="130dp"
+                android:layout_height="0dp"/>
+        <TextView
+            android:visibility="gone"
+            android:id="@+id/dialog_absol"
+            android:layout_gravity="right"
+            android:gravity="right"
+            android:text="확정"
+            android:textSize="12pt"
+            android:textColor="#000"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        </LinearLayout>
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+    <EditText
+        android:id="@+id/dialog_edittext"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/asdasdasdasd"/>
+    <ImageView
+        android:id="@+id/dialog_sendimg"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:src="@drawable/checkimg"/>
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

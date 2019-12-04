@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="#fff">
+
+    <ImageView
+
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:src="@drawable/mainimg"
+        android:layout_gravity="right"/>
+
+    <TextView
+        android:textSize="15pt"
+        android:text="아이디"
+        android:textStyle="bold"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <EditText
+        android:id="@+id/login_et1"
+        android:textColor="#000"
+        android:layout_margin="10dp"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/asdasdasdasd"/>
+
+    <TextView
+        android:textSize="15pt"
+        android:text="비밀번호"
+        android:textStyle="bold"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <EditText
+        android:id="@+id/login_et2"
+        android:textColor="#000"
+        android:layout_margin="10dp"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:inputType="textPassword"
+        android:background="@drawable/asdasdasdasd"/>
+
+    <TextView
+        android:id="@+id/textview_login"
+        android:textSize="20pt"
+        android:textStyle="bold"
+        android:layout_gravity="center"
+        android:text="로그인"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+</LinearLayout>

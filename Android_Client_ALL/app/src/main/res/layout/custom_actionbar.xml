@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:gravity="center_vertical"
+    android:background="#eee"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:src="@drawable/mainimg"
+        android:id="@+id/btnBack"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_margin="8dp"
+        android:layout_alignParentLeft="true"
+        android:onClick="clickActionBar"/>
+
+    <TextView
+        android:textStyle="bold"
+        android:text="채팅"
+        android:id="@+id/title"
+        android:textSize="20sp"
+        android:gravity="center_vertical"
+        android:layout_toRightOf="@id/btnBack"
+        android:layout_width="wrap_content"
+        android:layout_height="56dp" />
+
+    <ImageView
+        android:id="@+id/btnMenu"
+        android:layout_alignParentRight="true"
+        android:layout_width="56dp"
+        android:layout_height="56dp"
+        android:src="@drawable/newimg"
+        android:onClick="clickActionBar"  />
+</RelativeLayout>
